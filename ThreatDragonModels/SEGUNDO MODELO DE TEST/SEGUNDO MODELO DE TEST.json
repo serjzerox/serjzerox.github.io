@@ -37,9 +37,14 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nAcceso No Autorizado",
-              "description": "",
+              "description": "Los atacantes obtienen acceso a sistemas, aplicaciones o datos a los que no deberían tener permiso, generalmente usando credenciales robadas o información comprometida durante el ataque de phishing.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 0,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -62,9 +67,14 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nRobo de Datos",
-              "description": "",
+              "description": "Los datos sensibles, como información personal, financiera o corporativa, son extraídos por los atacantes durante el phishing, ya sea a través de formularios falsos o archivos adjuntos maliciosos.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 0,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -87,7 +97,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nInterrupción de Operaciones",
-              "description": "",
+              "description": "El ataque de phishing puede provocar interrupciones en las operaciones normales de la organización, afectando la disponibilidad de servicios y la continuidad del negocio. Esto puede ocurrir si el malware instalado interfiere con el funcionamiento de sistemas críticos.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -112,7 +122,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nCredenciales de Usuario",
-              "description": "",
+              "description": "Este activo incluye toda la información necesaria para autenticar a un usuario en sistemas y aplicaciones, como nombres de usuario, contraseñas, tokens de autenticación y otros métodos de acceso. Estas credenciales son esenciales para acceder a las cuentas personales y corporativas y, por lo tanto, su seguridad es crucial. Cuando las credenciales se ven comprometidas a través de ataques de phishing, los atacantes pueden obtener acceso no autorizado a diversas plataformas, lo que puede resultar en la exposición o manipulación de datos críticos y sistemas.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -137,7 +147,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nInformación Confidencial",
-              "description": "",
+              "description": "Este activo comprende datos sensibles que deben mantenerse privados para proteger la privacidad y la seguridad de los individuos y las organizaciones. Puede incluir información personal identificable (PII), detalles financieros, información médica, secretos comerciales y datos de clientes. La pérdida o el robo de información confidencial puede tener graves repercusiones, como el fraude, el robo de identidad, y la pérdida de confianza por parte de clientes y socios comerciales.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -162,7 +172,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nSistemas Corporativos",
-              "description": "",
+              "description": "Estos son los sistemas de software y hardware utilizados por una organización para llevar a cabo sus operaciones diarias. Incluyen servidores, bases de datos, redes, aplicaciones empresariales y otros componentes críticos de infraestructura tecnológica. Un ataque de phishing que comprometa estos sistemas puede llevar a la interrupción de las operaciones, la pérdida de datos importantes y la exposición de información crítica. La integridad, disponibilidad y confidencialidad de estos sistemas son esenciales para el funcionamiento continuo y seguro de la organización.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -187,7 +197,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nDaño Reputaciona",
-              "description": "",
+              "description": "La exposición de datos sensibles o la presencia de un ataque de phishing exitoso puede dañar la reputación de la organización, perdiendo la confianza de clientes y socios comerciales.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
