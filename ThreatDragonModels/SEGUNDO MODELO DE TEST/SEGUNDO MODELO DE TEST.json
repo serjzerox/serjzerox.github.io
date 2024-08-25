@@ -129,8 +129,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 300
+              "x": 780,
+              "y": 315
             },
             "size": {
               "width": 210,
@@ -154,8 +154,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 480
+              "x": 780,
+              "y": 470
             },
             "size": {
               "width": 210,
@@ -222,15 +222,15 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\n\nFiltros de Correo Avanzados",
-              "description": "",
+              "description": "Herramientas y técnicas utilizadas para identificar y filtrar correos electrónicos maliciosos antes de que lleguen a la bandeja de entrada del usuario. Estos filtros analizan diversos aspectos de los correos electrónicos, como el contenido, el origen, los enlaces y los archivos adjuntos, para detectar posibles intentos de phishing. La implementación de filtros de correo avanzados ayuda a reducir el riesgo de que los usuarios reciban correos electrónicos fraudulentos, disminuyendo así la probabilidad de que se vean comprometidos por ataques de phishing.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
           },
           {
             "position": {
-              "x": 1123,
-              "y": 248
+              "x": 1118,
+              "y": 198
             },
             "size": {
               "width": 250,
@@ -247,15 +247,15 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\nCapacitación de Empleados",
-              "description": "",
+              "description": "Programas educativos diseñados para enseñar a los empleados a reconocer y manejar intentos de phishing y otras amenazas de seguridad. La capacitación puede incluir sesiones de formación sobre cómo identificar correos electrónicos sospechosos, cómo verificar la autenticidad de los mensajes y qué acciones tomar en caso de recibir un correo de phishing. La capacitación continua ayuda a aumentar la conciencia de seguridad entre los empleados y a fortalecer la primera línea de defensa contra los ataques de phishing.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
           },
           {
             "position": {
-              "x": 1123,
-              "y": 380
+              "x": 1118,
+              "y": 285
             },
             "size": {
               "width": 250,
@@ -272,15 +272,15 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\nAutenticación Multifactor",
-              "description": "",
+              "description": "Un mecanismo de seguridad que requiere que los usuarios proporcionen dos o más formas de verificación antes de acceder a sus cuentas o sistemas. MFA puede incluir algo que el usuario sabe (como una contraseña), algo que el usuario tiene (como un token de seguridad o un teléfono móvil) y algo que el usuario es (como una huella dactilar o un escaneo facial). La implementación de MFA ayuda a proteger las cuentas incluso si las credenciales son comprometidas, añadiendo una capa adicional de seguridad.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
           },
           {
             "position": {
-              "x": 1128,
-              "y": 500
+              "x": 1113,
+              "y": 385
             },
             "size": {
               "width": 260,
@@ -297,10 +297,60 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "\nMonitoreo de Red",
-              "description": "",
+              "description": "La supervisión continua de la actividad en la red para detectar y responder a comportamientos inusuales o sospechosos que podrían indicar un intento de phishing o un ataque en curso. Esto incluye el uso de herramientas de análisis de tráfico de red, sistemas de detección y prevención de intrusiones, y otras tecnologías de seguridad para identificar posibles amenazas en tiempo real. El monitoreo de red permite una respuesta rápida a incidentes y ayuda a minimizar el impacto de los ataques de phishing.",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 1113,
+              "y": 480
+            },
+            "size": {
+              "width": 260,
+              "height": 50
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "\nEncriptación de Datos"
+              }
+            },
+            "id": "63151a0b-3e8d-44aa-a641-219b64ffe4b0",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "\nEncriptación de Datos",
+              "description": "El proceso de convertir datos en un formato cifrado que solo puede ser descifrado por personas o sistemas autorizados. La encriptación protege los datos en reposo y en tránsito, asegurando que, incluso si los datos son robados durante un ataque de phishing, no puedan ser leídos ni utilizados sin las claves adecuadas. La encriptación es una medida clave para proteger la confidencialidad de la información sensible.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
+              "x": 1113,
+              "y": 570
+            },
+            "size": {
+              "width": 260,
+              "height": 50
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "\nGestión de Crisis"
+              }
+            },
+            "id": "febaa3cb-eb08-4cad-bef9-e41fe5d32855",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "\nGestión de Crisis",
+              "description": "Estrategias y procedimientos para manejar situaciones de crisis que puedan afectar gravemente a la organización, incluyendo la pérdida de reputación y la interrupción de operaciones. La gestión de crisis incluye la comunicación con los medios y las partes interesadas, la coordinación de respuestas y la planificación de acciones correctivas. Una gestión de crisis efectiva ayuda a reducir el impacto del incidente y a restaurar la normalidad.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
           },
           {
             "position": {
@@ -1781,6 +1831,86 @@
               {
                 "x": 730,
                 "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "83ef381c-eda2-4610-af0b-2c3a1524b5b0",
+            "source": {
+              "cell": "3a65fc64-3dd0-451b-82d3-516e1043a970"
+            },
+            "target": {
+              "cell": "febaa3cb-eb08-4cad-bef9-e41fe5d32855"
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": 330
+              },
+              {
+                "x": 1080,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "b399e7b2-440a-4928-8317-74833ce72887",
+            "source": {
+              "cell": "f3d3f819-5b69-45a0-85e8-eeaedbd62e43"
+            },
+            "target": {
+              "cell": "febaa3cb-eb08-4cad-bef9-e41fe5d32855"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "c0c815bc-6373-456d-abb1-d517b7b0520c",
+            "source": {
+              "cell": "35db249c-a662-49c8-8f64-4b7178045e86"
+            },
+            "target": {
+              "cell": "febaa3cb-eb08-4cad-bef9-e41fe5d32855"
+            },
+            "vertices": [
+              {
+                "x": 1060,
+                "y": 520
               }
             ]
           },
