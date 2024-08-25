@@ -342,16 +342,16 @@
                 },
                 {
                   "id": "fef94056-5aa8-4d8a-ad9d-080af35ec484",
-                  "title": "Nueva amenaza DIE",
+                  "title": "Creación de Sitios Web Falsos",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Immutable",
-                  "description": "Introduzca una descripción para esta amenaza",
-                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "description": "El atacante replica sitios web de organizaciones legítimas para engañar a las víctimas y que ingresen sus credenciales o información personal en ellos.",
+                  "mitigation": "Capacitar a los usuarios para verificar la autenticidad de los sitios web y emplear soluciones de seguridad que detecten y bloqueen sitios falsos.",
                   "modelType": "DIE",
-                  "new": true,
+                  "new": false,
                   "number": 7,
-                  "score": ""
+                  "score": "8/10"
                 },
                 {
                   "id": "e305e385-ac68-4a09-9e0a-a886a6aef6f1",
@@ -369,7 +369,7 @@
               ],
               "threatFrequency": {
                 "distributed": 3,
-                "immutable": 1,
+                "immutable": 2,
                 "ephemeral": 0
               }
             }
@@ -464,7 +464,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Envío de Correos"
+                "text": "Envío de Correos Fraudulentos"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -481,8 +481,8 @@
             "id": "1807e80d-81a8-4d5f-8573-fdd60e1cb996",
             "data": {
               "type": "tm.Store",
-              "name": "Envío de Correos",
-              "description": "",
+              "name": "Envío de Correos Fraudulentos",
+              "description": "Los atacantes envían correos electrónicos que parecen legítimos para engañar a las víctimas. Estos correos pueden contener enlaces a sitios web falsos o archivos adjuntos maliciosos, diseñados para obtener información personal o comprometer sistemas.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
