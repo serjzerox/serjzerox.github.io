@@ -318,7 +318,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Ataque de Phishing",
-              "description": "",
+              "description": "Es una técnica de ciberataque en la que el atacante utiliza engaños para inducir a las víctimas a revelar información confidencial o instalar malware. Los ataques de phishing se realizan generalmente a través de correos electrónicos fraudulentos, sitios web falsos o mensajes engañosos que aparentan provenir de fuentes confiables. El objetivo principal es obtener credenciales de acceso, información personal o comprometer sistemas para obtener un beneficio malicioso.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -339,11 +339,37 @@
                   "new": false,
                   "number": 3,
                   "score": "10"
+                },
+                {
+                  "id": "fef94056-5aa8-4d8a-ad9d-080af35ec484",
+                  "title": "Nueva amenaza DIE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Immutable",
+                  "description": "Introduzca una descripción para esta amenaza",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "DIE",
+                  "new": true,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "e305e385-ac68-4a09-9e0a-a886a6aef6f1",
+                  "title": "Envío de Correos Fraudulentos:",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Immutable",
+                  "description": "El atacante envía correos electrónicos que parecen legítimos para engañar a las víctimas. Estos correos suelen contener enlaces a sitios web falsos o archivos adjuntos maliciosos.",
+                  "mitigation": "Implementar filtros de correo avanzados y educar a los usuarios sobre cómo identificar correos sospechosos.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 8,
+                  "score": "9/10"
                 }
               ],
               "threatFrequency": {
                 "distributed": 3,
-                "immutable": 0,
+                "immutable": 1,
                 "ephemeral": 0
               }
             }
@@ -1803,6 +1829,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 8
   }
 }
