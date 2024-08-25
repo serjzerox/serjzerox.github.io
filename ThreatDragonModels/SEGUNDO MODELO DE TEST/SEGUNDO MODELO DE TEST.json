@@ -523,7 +523,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Creación de Sitios",
-              "description": "",
+              "description": "Los atacantes crean réplicas de sitios web legítimos para engañar a las víctimas y capturar información confidencial ingresada en estos sitios falsos. Estos sitios pueden parecer idénticos a los reales y suelen engañar a los usuarios.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -564,7 +564,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Técnicas de Evasión",
-              "description": "",
+              "description": "Los atacantes utilizan técnicas para evitar ser detectados por los sistemas de seguridad. Esto incluye cifrar correos electrónicos, manipular encabezados, o usar acortadores de URL para ocultar la verdadera dirección de los enlaces.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1675,7 +1675,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Robo de Credenciales",
-              "description": "",
+              "description": "Los atacantes obtienen información de autenticación (nombres de usuario, contraseñas) a través de correos electrónicos de phishing o sitios web falsos, lo que les permite acceder a sistemas y datos confidenciales.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -1716,7 +1716,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Instalación de Malware",
-              "description": "",
+              "description": "El atacante distribuye malware a través de correos electrónicos fraudulentos o sitios web falsos. El malware puede incluir keyloggers, troyanos u otros tipos de software malicioso que comprometen los sistemas de las víctimas.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
