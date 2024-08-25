@@ -568,11 +568,13 @@
                 "text": "Creación de Sitios Web Falsos"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -586,13 +588,45 @@
               "description": "Los atacantes crean réplicas de sitios web legítimos para engañar a las víctimas y capturar información confidencial ingresada en estos sitios falsos. Estos sitios pueden parecer idénticos a los reales y suelen engañar a los usuarios.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "4a3ed52a-571b-410c-adbd-2326bee3ce5c",
+                  "title": "Sitio Web de Inicio de Sesión Falso:",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Distributed",
+                  "description": "Un sitio web que imita la página de inicio de sesión de un servicio en línea popular, donde las víctimas ingresan sus credenciales pensando que están accediendo a su cuenta real.",
+                  "mitigation": "Educar a los usuarios sobre cómo verificar la autenticidad de los sitios web y utilizar herramientas de verificación.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 13,
+                  "score": "8/10"
+                },
+                {
+                  "id": "465ed448-1733-4032-af6d-795d7ac772db",
+                  "title": "Página de Actualización de Perfil Falsa",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Immutable",
+                  "description": "Un sitio que parece ser una página oficial de actualización de perfil de una red social, solicitando a los usuarios que ingresen información personal.",
+                  "mitigation": "Implementar soluciones que detecten y bloqueen sitios web falsos",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 14,
+                  "score": "8/10"
+                }
+              ],
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 1,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -609,11 +643,13 @@
                 "text": "Técnicas de Evasión"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -627,13 +663,45 @@
               "description": "Los atacantes utilizan técnicas para evitar ser detectados por los sistemas de seguridad. Esto incluye cifrar correos electrónicos, manipular encabezados, o usar acortadores de URL para ocultar la verdadera dirección de los enlaces.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "f7717a05-cd0d-4cd4-889f-8ebb1100b394",
+                  "title": "Correo Cifrado con URL Acortada",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Distributed",
+                  "description": "Un correo que utiliza cifrado y un acortador de URL para ocultar el destino malicioso y evitar la detección por filtros de spam.",
+                  "mitigation": "Implementar sistemas de monitoreo de red que detecten patrones de evasión.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 15,
+                  "score": "7/10"
+                },
+                {
+                  "id": "c09022b4-f743-40f6-889d-4e80edab4166",
+                  "title": "Manipulación de Encabezados de Correo",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Immutable",
+                  "description": "Un ataque donde se manipulan los encabezados de los correos electrónicos para que parezcan provenientes de fuentes confiables, evadiendo la detección de sistemas de seguridad.",
+                  "mitigation": "Capacitar a los usuarios y al personal de seguridad sobre las técnicas utilizadas para evadir detección.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 16,
+                  "score": "7/10"
+                }
+              ],
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 2,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -1720,11 +1788,13 @@
                 "text": "Robo de Credenciales"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1738,13 +1808,45 @@
               "description": "Los atacantes obtienen información de autenticación (nombres de usuario, contraseñas) a través de correos electrónicos de phishing o sitios web falsos, lo que les permite acceder a sistemas y datos confidenciales.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "9f6f0287-034f-497e-94cf-065684f86eda",
+                  "title": "Phishing de Acceso a Correo Electrónico",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Distributed",
+                  "description": "Un ataque que engaña a los usuarios para que ingresen sus credenciales de correo electrónico en un sitio falso, permitiendo a los atacantes acceder a sus cuentas de correo.",
+                  "mitigation": "Implementar MFA para proteger el acceso a cuentas y sistemas críticos.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 18,
+                  "score": "9/10"
+                },
+                {
+                  "id": "7cab9cc4-db6d-494b-b881-bc54abfb93cc",
+                  "title": "Phishing de Plataforma de Pago",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Immutable",
+                  "description": "Un correo que imita una solicitud de verificación de cuenta de una plataforma de pago, capturando credenciales de acceso y detalles financieros.",
+                  "mitigation": "Realizar monitoreo continuo para detectar accesos no autorizados o comportamientos inusuales.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 19,
+                  "score": "9/10"
+                }
+              ],
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 1,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -1761,11 +1863,13 @@
                 "text": "Instalación de Malware"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1779,13 +1883,45 @@
               "description": "El atacante distribuye malware a través de correos electrónicos fraudulentos o sitios web falsos. El malware puede incluir keyloggers, troyanos u otros tipos de software malicioso que comprometen los sistemas de las víctimas.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "85ca435d-beeb-4647-ab31-518d9a74621a",
+                  "title": "Correo con Archivo Adjunto Malicioso",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Distributed",
+                  "description": "Un correo electrónico que incluye un archivo adjunto que, al abrirse, instala un troyano en el sistema de la víctima.",
+                  "mitigation": "Utilizar software antivirus y antimalware actualizado para proteger los sistemas.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 20,
+                  "score": "8/10"
+                },
+                {
+                  "id": "47b9c5e4-e33e-421e-9432-daa2dfe666b9",
+                  "title": "Sitio Web de Descarga de Malware",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Immutable",
+                  "description": "Un sitio web falso que engaña a los usuarios para que descarguen e instalen software malicioso disfrazado de una actualización o herramienta útil.",
+                  "mitigation": "Implementar herramientas de monitoreo para detectar y responder a actividades maliciosas en la red.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 21,
+                  "score": "8/10"
+                }
+              ],
+              "threatFrequency": {
+                "distributed": 1,
+                "immutable": 1,
+                "ephemeral": 0
+              }
             }
           },
           {
@@ -1889,6 +2025,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 21
   }
 }
