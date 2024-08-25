@@ -365,12 +365,38 @@
                   "new": false,
                   "number": 8,
                   "score": "9/10"
+                },
+                {
+                  "id": "9de9dfe0-f765-40bf-af0c-7ae98cc9578b",
+                  "title": "Técnicas de Evasión",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Ephemeral",
+                  "description": "Métodos para evitar la detección por sistemas de seguridad, como cifrado y manipulación de encabezados.",
+                  "mitigation": "Monitoreo de red, educación sobre técnicas de evasión.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 9,
+                  "score": "7/10"
+                },
+                {
+                  "id": "6651af91-b64d-47f8-900c-b4bca8655a88",
+                  "title": "Instalación de Malware",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Ephemeral",
+                  "description": "Distribución de malware a través de correos electrónicos o sitios web falsos.",
+                  "mitigation": "Soluciones de seguridad, monitoreo de red.",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 10,
+                  "score": "8/10"
                 }
               ],
               "threatFrequency": {
                 "distributed": 3,
                 "immutable": 2,
-                "ephemeral": 0
+                "ephemeral": 2
               }
             }
           },
@@ -505,7 +531,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Creación de Sitios"
+                "text": "Creación de Sitios Web Falsos"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -522,7 +548,7 @@
             "id": "ab38edee-2205-4604-811e-68994b7f000f",
             "data": {
               "type": "tm.Store",
-              "name": "Creación de Sitios",
+              "name": "Creación de Sitios Web Falsos",
               "description": "Los atacantes crean réplicas de sitios web legítimos para engañar a las víctimas y capturar información confidencial ingresada en estos sitios falsos. Estos sitios pueden parecer idénticos a los reales y suelen engañar a los usuarios.",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1829,6 +1855,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 10
   }
 }
