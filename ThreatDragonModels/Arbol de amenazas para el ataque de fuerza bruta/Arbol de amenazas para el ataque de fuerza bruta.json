@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Arbol de amenazas para el ataque de fuerza bruta",
+    "owner": "Daniela A Cuellar B",
+    "description": "Se describe el árbol de amenazas para un ataque de fuerza bruta, se maneja de manera general para lograr comprender el concepto del desglose de este ataque.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
